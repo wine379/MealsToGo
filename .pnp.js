@@ -38,9 +38,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@babel/core", "npm:7.18.10"],
+            ["@expo-google-fonts/inter", "npm:0.2.2"],
             ["@react-native-community/eslint-config", "virtual:39d95bbe15e3429be4e99b8031fcfd69f65731e1810a6b732f79350fd474c119baf7d9872438b568e292bf9fc56c74cf24e879f4798e92a19bff3444ba7bee2e#npm:3.1.0"],
             ["eslint", "npm:8.22.0"],
             ["expo", "npm:46.0.8"],
+            ["expo-font", "virtual:6fdb1bee3c293330b5d63d99435dfdb4a40a0b27b25f773ba15ef0ad48ea4b767ce63e6ff9cb1d25758fe1eefe0d17fea03b3b0003bee6c90debdb665a02edd5#npm:10.2.0"],
             ["expo-status-bar", "npm:1.4.0"],
             ["prettier", "npm:2.7.1"],
             ["react", "npm:18.0.0"],
@@ -3361,6 +3363,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@expo-google-fonts/inter", [
+        ["npm:0.2.2", {
+          "packageLocation": "./.yarn/cache/@expo-google-fonts-inter-npm-0.2.2-22b75c42b2-120e1f0c67.zip/node_modules/@expo-google-fonts/inter/",
+          "packageDependencies": [
+            ["@expo-google-fonts/inter", "npm:0.2.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@expo/bunyan", [
         ["npm:4.0.0", {
           "packageLocation": "./.yarn/cache/@expo-bunyan-npm-4.0.0-afa8a6e0b2-887f657ce6.zip/node_modules/@expo/bunyan/",
@@ -3835,7 +3846,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/types", "npm:26.6.2"],
             ["@types/istanbul-lib-coverage", "npm:2.0.4"],
             ["@types/istanbul-reports", "npm:3.0.1"],
-            ["@types/node", "npm:18.7.6"],
+            ["@types/node", "npm:18.7.7"],
             ["@types/yargs", "npm:15.0.14"],
             ["chalk", "npm:4.1.2"]
           ],
@@ -3847,7 +3858,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/types", "npm:27.5.1"],
             ["@types/istanbul-lib-coverage", "npm:2.0.4"],
             ["@types/istanbul-reports", "npm:3.0.1"],
-            ["@types/node", "npm:18.7.6"],
+            ["@types/node", "npm:18.7.7"],
             ["@types/yargs", "npm:16.0.4"],
             ["chalk", "npm:4.1.2"]
           ],
@@ -4331,7 +4342,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-graceful-fs-npm-4.1.5-91d62e1050-ab79ec306d.zip/node_modules/@types/graceful-fs/",
           "packageDependencies": [
             ["@types/graceful-fs", "npm:4.1.5"],
-            ["@types/node", "npm:18.7.6"]
+            ["@types/node", "npm:18.7.7"]
           ],
           "linkType": "HARD",
         }]
@@ -4375,10 +4386,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:18.7.6", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.7.6-c1eafa3d9a-43d713ca77.zip/node_modules/@types/node/",
+        ["npm:18.7.7", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.7.7-7e5eaafe4c-fc0c5bed8d.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:18.7.6"]
+            ["@types/node", "npm:18.7.7"]
           ],
           "linkType": "HARD",
         }]
@@ -4596,21 +4607,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["npm:2.6.1", {
-          "packageLocation": "./.yarn/cache/@urql-core-npm-2.6.1-3f030ef386-801c300a52.zip/node_modules/@urql/core/",
+        ["npm:3.0.0", {
+          "packageLocation": "./.yarn/cache/@urql-core-npm-3.0.0-20d346ed59-5f122e9367.zip/node_modules/@urql/core/",
           "packageDependencies": [
-            ["@urql/core", "npm:2.6.1"]
+            ["@urql/core", "npm:3.0.0"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:429b84d66f2f15783c798a81f14a05b27df9edb2bf0ceb9bb2d9abc29f680a0d150f59d394c06dd49cbca0504e107dc9234fbfd0c2d144bf805f929590b144b6#npm:2.6.1", {
-          "packageLocation": "./.yarn/$$virtual/@urql-core-virtual-8b86fe483f/0/cache/@urql-core-npm-2.6.1-3f030ef386-801c300a52.zip/node_modules/@urql/core/",
+        ["virtual:429b84d66f2f15783c798a81f14a05b27df9edb2bf0ceb9bb2d9abc29f680a0d150f59d394c06dd49cbca0504e107dc9234fbfd0c2d144bf805f929590b144b6#npm:3.0.0", {
+          "packageLocation": "./.yarn/$$virtual/@urql-core-virtual-3fe112912b/0/cache/@urql-core-npm-3.0.0-20d346ed59-5f122e9367.zip/node_modules/@urql/core/",
           "packageDependencies": [
-            ["@urql/core", "virtual:429b84d66f2f15783c798a81f14a05b27df9edb2bf0ceb9bb2d9abc29f680a0d150f59d394c06dd49cbca0504e107dc9234fbfd0c2d144bf805f929590b144b6#npm:2.6.1"],
+            ["@urql/core", "virtual:429b84d66f2f15783c798a81f14a05b27df9edb2bf0ceb9bb2d9abc29f680a0d150f59d394c06dd49cbca0504e107dc9234fbfd0c2d144bf805f929590b144b6#npm:3.0.0"],
             ["@graphql-typed-document-node/core", "virtual:74d244d88f003ac4b6063dc66bde94f7a5ca6a061c173779c265fd863bd045daa414b4712305f86e7139a89b89d43cc37e46cd3e93e13e79c25547227ed708b3#npm:3.1.1"],
             ["@types/graphql", null],
             ["graphql", "npm:15.8.0"],
-            ["wonka", "npm:4.0.15"]
+            ["wonka", "npm:6.0.0"]
           ],
           "packagePeers": [
             "@types/graphql",
@@ -4647,7 +4658,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@urql/exchange-retry", "virtual:ca78abef0b45f21ed8dbdbcd3d533a4d42762b0ab8f4824d0f206525f15a109a10605bbab8b9c49b84d6894efdc55114ccd101f66cab5dc893cf06bfb8b81f6d#npm:0.3.0"],
             ["@types/graphql", null],
-            ["@urql/core", "virtual:429b84d66f2f15783c798a81f14a05b27df9edb2bf0ceb9bb2d9abc29f680a0d150f59d394c06dd49cbca0504e107dc9234fbfd0c2d144bf805f929590b144b6#npm:2.6.1"],
+            ["@urql/core", "virtual:429b84d66f2f15783c798a81f14a05b27df9edb2bf0ceb9bb2d9abc29f680a0d150f59d394c06dd49cbca0504e107dc9234fbfd0c2d144bf805f929590b144b6#npm:3.0.0"],
             ["graphql", "npm:15.8.0"],
             ["wonka", "npm:4.0.15"]
           ],
@@ -7765,17 +7776,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/flat-cache-npm-3.0.4-ee77e5911e-72d86ccdf8.zip/node_modules/flat-cache/",
           "packageDependencies": [
             ["flat-cache", "npm:3.0.4"],
-            ["flatted", "npm:3.2.6"],
+            ["flatted", "npm:3.2.7"],
             ["rimraf", "npm:3.0.2"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["flatted", [
-        ["npm:3.2.6", {
-          "packageLocation": "./.yarn/cache/flatted-npm-3.2.6-a309e17eb3-d9f161cb25.zip/node_modules/flatted/",
+        ["npm:3.2.7", {
+          "packageLocation": "./.yarn/cache/flatted-npm-3.2.7-0da10b7c56-9a4de5f058.zip/node_modules/flatted/",
           "packageDependencies": [
-            ["flatted", "npm:3.2.6"]
+            ["flatted", "npm:3.2.7"]
           ],
           "linkType": "HARD",
         }]
@@ -9130,7 +9141,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-haste-map", "npm:27.5.1"],
             ["@jest/types", "npm:27.5.1"],
             ["@types/graceful-fs", "npm:4.1.5"],
-            ["@types/node", "npm:18.7.6"],
+            ["@types/node", "npm:18.7.7"],
             ["anymatch", "npm:3.1.2"],
             ["fb-watchman", "npm:2.0.1"],
             ["fsevents", "patch:fsevents@npm%3A2.3.2#builtin<compat/fsevents>::version=2.3.2&hash=11e9ea"],
@@ -9159,7 +9170,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/jest-serializer-npm-27.5.1-7cec732598-493c467dd4.zip/node_modules/jest-serializer/",
           "packageDependencies": [
             ["jest-serializer", "npm:27.5.1"],
-            ["@types/node", "npm:18.7.6"],
+            ["@types/node", "npm:18.7.7"],
             ["graceful-fs", "npm:4.2.10"]
           ],
           "linkType": "HARD",
@@ -9171,7 +9182,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["jest-util", "npm:27.5.1"],
             ["@jest/types", "npm:27.5.1"],
-            ["@types/node", "npm:18.7.6"],
+            ["@types/node", "npm:18.7.7"],
             ["chalk", "npm:4.1.2"],
             ["ci-info", "npm:3.3.2"],
             ["graceful-fs", "npm:4.2.10"],
@@ -9200,7 +9211,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/jest-worker-npm-27.5.1-1c110b5894-1930798552.zip/node_modules/jest-worker/",
           "packageDependencies": [
             ["jest-worker", "npm:27.5.1"],
-            ["@types/node", "npm:18.7.6"],
+            ["@types/node", "npm:18.7.7"],
             ["merge-stream", "npm:2.0.0"],
             ["supports-color", "npm:8.1.1"]
           ],
@@ -9761,9 +9772,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["mealstogo", "workspace:."],
             ["@babel/core", "npm:7.18.10"],
+            ["@expo-google-fonts/inter", "npm:0.2.2"],
             ["@react-native-community/eslint-config", "virtual:39d95bbe15e3429be4e99b8031fcfd69f65731e1810a6b732f79350fd474c119baf7d9872438b568e292bf9fc56c74cf24e879f4798e92a19bff3444ba7bee2e#npm:3.1.0"],
             ["eslint", "npm:8.22.0"],
             ["expo", "npm:46.0.8"],
+            ["expo-font", "virtual:6fdb1bee3c293330b5d63d99435dfdb4a40a0b27b25f773ba15ef0ad48ea4b767ce63e6ff9cb1d25758fe1eefe0d17fea03b3b0003bee6c90debdb665a02edd5#npm:10.2.0"],
             ["expo-status-bar", "npm:1.4.0"],
             ["prettier", "npm:2.7.1"],
             ["react", "npm:18.0.0"],
@@ -13694,6 +13707,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/wonka-npm-4.0.15-716683372a-df4fd51c15.zip/node_modules/wonka/",
           "packageDependencies": [
             ["wonka", "npm:4.0.15"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:6.0.0", {
+          "packageLocation": "./.yarn/cache/wonka-npm-6.0.0-d67c1cf35e-f1a9148ca5.zip/node_modules/wonka/",
+          "packageDependencies": [
+            ["wonka", "npm:6.0.0"]
           ],
           "linkType": "HARD",
         }]
